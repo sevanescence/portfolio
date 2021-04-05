@@ -1,0 +1,24 @@
+body * {
+    color: rgb(200, 200, 200);
+}
+
+div#main header {
+    background-color: #14151b;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+div#main header h2 {
+    color: rgb(68, 68, 68);
+    font-weight: 800;
+}
+
+div#main header h2 span {
+    color: rgb(67, 180, 180);
+    font-weight: bold;
+}

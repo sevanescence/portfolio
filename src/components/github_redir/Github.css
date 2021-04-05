@@ -1,0 +1,54 @@
+div#three-container {
+    height: 100%;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+}
+.header-pad {
+    margin-top: 58px;
+}
+.stretch-height {
+    height: calc(100% - 58px);
+}
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.center-text {
+    text-align: center;
+}
+.italic {
+    font-style: italic;
+}
+
+div#redirect-proxy-content {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.proxy-content-pad {
+    height: 25%;
+    background-color: #eeeeee;
+}
+
+.proxy-content-top h2 {
+    font-size: 28pt;
+    margin-bottom: 24px;
+}
+.proxy-content-top p {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 16pt;
+}
+.important {
+    font-weight: 600;
+    color: rgb(233, 175, 68);
+}
