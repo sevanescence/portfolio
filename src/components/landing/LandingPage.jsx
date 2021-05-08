@@ -27,21 +27,13 @@ class LandingPage extends Component {
                             <div id='content-text'>
                                 <h1>Hey there!</h1>
                                 <p>
-                                    This is my portfolio. It isn't quite
-                                    actually completed yet, but you can find out
-                                    about me and my work here:
+                                    This is my portfolio. It isn't quite actually completed yet, but you can find out about me
+                                    and my work here:
                                 </p>
                             </div>
                             <div id='buttons'>
-                                <button
-                                    id='github'
-                                    class='fling'
-                                    onClick={this.redirect}
-                                >
+                                <button id='github' class='fling' onClick={this.redirect}>
                                     Check out my GitHub
-                                </button>
-                                <button id='resume' class='fling'>
-                                    Download my resume
                                 </button>
                             </div>
                         </div>
